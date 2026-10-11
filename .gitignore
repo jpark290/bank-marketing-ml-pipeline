@@ -1,0 +1,27 @@
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+tfx-env/
+.ipynb_checkpoints/
+
+# Local configuration
+.env
+.env.*
+!.env.example
+
+# Generated pipeline artifacts
+interactive_pipeline_outputs/
+airflow_pipeline_outputs/
+airflow/
+logs/
+*.db
+*.db-shm
+*.db-wal
+
+# Original report containing personal information
+COMP315_project_section_team6_Final_2.pdf
+
+# Submission archives
+*.zip
